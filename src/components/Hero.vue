@@ -1,18 +1,15 @@
 <template>
   <div class="hero">
     <div class="card">
-      <img src="../assets/dogs.jpg" alt="Two dogs on a bed" />
+      <img src="../assets/dog2.png" alt="dog on a bed" />
     </div>
-  </div>
-  <div>
-    <h2>Discover the Heart of Artisan Crafting</h2>
   </div>
 </template>
 
 <style scoped>
 .hero {
   margin-top: 50px;
-  min-height: 50dvh;
+  min-height: 75dvh;
   background-image: url(../assets/wild.png);
   background-size: 90%;
   background-repeat: no-repeat;
@@ -27,20 +24,16 @@
 
 .card {
   background-color: white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
   padding: 20px;
-  max-width: 400px;
+  width: 800px;
   text-align: center;
+  margin-bottom: -80px;
+  padding-top: 100px;
 }
 
 .card img {
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-size: 3rem;
-  text-align: center;
+  margin-bottom: 100px;
 }
 </style>
