@@ -56,4 +56,24 @@
     margin-bottom: 50px; /* Reduce image bottom margin */
   }
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .hero {
+    margin-top: 30px;
+    min-height: 65dvh;
+    background-size: 85%; /* Adjust background size for iPads */
+    padding: 15px;
+  }
+
+  .card {
+    width: 500px; /* Reduce card width slightly for iPads */
+    padding: 20px;
+    margin-bottom: -60px;
+    padding-top: 90px;
+  }
+
+  .card img {
+    margin-bottom: 70px; /* Adjust image bottom margin for iPads */
+  }
+}
 </style>
