@@ -51,13 +51,22 @@ img {
 @media (max-width: 768px) {
   .discover {
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     padding: 20px;
   }
 
   .discover-text p {
     font-size: 1rem;
     max-width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .discover {
+    flex-direction: column;
+  }
+  .discover-text p {
+    max-width: 80%;
   }
 }
 </style>
