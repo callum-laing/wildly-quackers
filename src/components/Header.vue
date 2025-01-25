@@ -36,4 +36,13 @@ h1 {
 .header-links > a:hover {
   color: rgb(50, 143, 75);
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem; /* Scale down the font size */
+    padding: 15px; /* Adjust padding for better alignment */
+    text-underline-offset: 10px; /* Adjust underline offset for smaller text */
+    padding-bottom: 30px;
+  }
+}
 </style>

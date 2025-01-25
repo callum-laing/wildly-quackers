@@ -36,4 +36,24 @@
   width: 100%;
   margin-bottom: 100px;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 20px;
+    min-height: 60dvh;
+    background-size: cover; /* Scale background to fit */
+    padding: 10px;
+  }
+
+  .card {
+    width: 90%; /* Adjust card width for smaller screens */
+    padding: 15px;
+    margin-bottom: -50px; /* Reduce margin for smaller view */
+    padding-top: 80px;
+  }
+
+  .card img {
+    margin-bottom: 50px; /* Reduce image bottom margin */
+  }
+}
 </style>
