@@ -1,10 +1,5 @@
 <template>
   <h1>WILDLY QUACKERS</h1>
-  <div class="header-links">
-    <a href="/">HOME</a>
-    <a href="">SHOP</a>
-    <a href="/">CONTACT</a>
-  </div>
 </template>
 
 <style scoped>
@@ -22,26 +17,11 @@ h1 {
   padding-bottom: 40px;
 }
 
-.header-links {
-  text-align: center;
-}
-
-.header-links > a {
-  text-decoration: none;
-  margin: 0 20px;
-  color: black;
-  letter-spacing: 2px;
-}
-
-.header-links > a:hover {
-  color: rgb(50, 143, 75);
-}
-
 @media (max-width: 768px) {
   h1 {
-    font-size: 1.8rem; /* Scale down the font size */
-    padding: 15px; /* Adjust padding for better alignment */
-    text-underline-offset: 10px; /* Adjust underline offset for smaller text */
+    font-size: 1.8rem;
+    padding: 15px;
+    text-underline-offset: 10px;
     padding-bottom: 30px;
   }
 }

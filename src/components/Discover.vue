@@ -50,24 +50,14 @@ img {
 
 @media (max-width: 768px) {
   .discover {
-    flex-direction: column; /* Stack the image and text vertically */
-    gap: 40px; /* Reduce gap between items */
-    padding: 20px; /* Add padding around the container */
-  }
-
-  .discover-img img {
-    width: 100%; /* Make the image responsive */
-    max-width: 400px; /* Limit the maximum width */
-    padding: 10px; /* Reduce padding */
-  }
-
-  .discover-text h3 {
-    font-size: 1.1rem; /* Slightly smaller heading size */
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
   }
 
   .discover-text p {
-    font-size: 1rem; /* Slightly smaller paragraph text */
-    max-width: 100%; /* Allow text to flow better on smaller screens */
+    font-size: 1rem;
+    max-width: 100%;
   }
 }
 </style>

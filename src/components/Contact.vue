@@ -1,21 +1,17 @@
 <template>
   <div id="contactContainer">
-    <h2>Enquiries</h2>
-    <form action="https://formspree.io/f/xknykdjb" method="POST">
+    <h1>ENQUIRIES</h1>
+    <form action="https://formspree.io/f/myzkzoww" method="POST">
       <label for="name">
-        <!-- <p class="formHeader">Your Name:</p> -->
         <input type="text" name="name" placeholder="YOUR NAME?" required />
       </label>
       <label for="number">
-        <!-- <p class="formHeader">Your Email:</p> -->
         <input type="tel" name="telephone" placeholder="YOUR NUMBER?" required />
       </label>
       <label for="email">
-        <!-- <p class="formHeader">Your Email:</p> -->
         <input type="email" name="email" placeholder="YOUR EMAIL?" required />
       </label>
       <label for="message">
-        <!-- <p class="formHeader">Message:</p> -->
         <textarea name="message" class="body" placeholder="MESSAGE" required></textarea>
       </label>
       <button class="formSubmit" type="submit">SEND</button>
@@ -33,7 +29,7 @@
   text-align: center;
 }
 
-h2 {
+h1 {
   font-size: 2.5rem;
   text-align: center;
   padding: 20px;

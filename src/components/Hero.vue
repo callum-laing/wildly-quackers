@@ -41,19 +41,19 @@
   .hero {
     margin-top: 20px;
     min-height: 60dvh;
-    background-size: cover; /* Scale background to fit */
+    background-size: cover;
     padding: 10px;
   }
 
   .card {
-    width: 90%; /* Adjust card width for smaller screens */
+    width: 90%;
     padding: 15px;
-    margin-bottom: -50px; /* Reduce margin for smaller view */
+    margin-bottom: -50px;
     padding-top: 80px;
   }
 
   .card img {
-    margin-bottom: 50px; /* Reduce image bottom margin */
+    margin-bottom: 50px;
   }
 }
 
@@ -61,19 +61,19 @@
   .hero {
     margin-top: 30px;
     min-height: 65dvh;
-    background-size: 85%; /* Adjust background size for iPads */
+    background-size: 85%;
     padding: 15px;
   }
 
   .card {
-    width: 500px; /* Reduce card width slightly for iPads */
+    width: 500px;
     padding: 20px;
     margin-bottom: -60px;
     padding-top: 90px;
   }
 
   .card img {
-    margin-bottom: 70px; /* Adjust image bottom margin for iPads */
+    margin-bottom: 70px;
   }
 }
 </style>
