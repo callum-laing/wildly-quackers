@@ -26,14 +26,13 @@ const scrollToSection = (section) => {
   <main>
     <Header />
     <div class="header-links">
-      <a href="#" @click.prevent="scrollToSection('home')">HOME</a>
-      <a href="#" @click.prevent="scrollToSection('shop')">SHOP</a>
-      <a href="#" @click.prevent="scrollToSection('contact')">CONTACT</a>
+      <a href="#shop">SHOP</a>
+      <a href="#contact">CONTACT</a>
     </div>
 
-    <div ref="heroSection">
+
       <Hero />
-    </div>
+
 
     <h2>Discover the Heart of Artisan Crafting</h2>
     <Discover />
