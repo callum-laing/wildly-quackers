@@ -11,7 +11,7 @@ import Footer from './components/Footer.vue'
   <main>
     <Header />
     <nav class="header-links">
-      <a href="#shop">SHOP</a>
+      <a href="#gallery">GALLERY</a>
       <a href="#contact">CONTACT</a>
     </nav>
 
@@ -20,7 +20,7 @@ import Footer from './components/Footer.vue'
     <h2>Discover the Heart of Artisan Crafting</h2>
     <Discover />
 
-    <h2 id="shop">Featured Products</h2>
+    <h2 id="gallery">Featured Products</h2>
     <Products />
 
     <h2>

@@ -1,18 +1,18 @@
 <template>
-  <div class="shopImages">
-    <img src="../assets/shop/store.jpg" alt="store cushion" />
-    <img src="../assets/shop/set.jpg" alt="sheep cushion" />
+  <div class="galleryImages">
+    <img src="../assets/shop/store.jpg" alt="store of items" />
+    <img src="../assets/shop/set.jpg" alt="set of items" />
     <img src="../assets/shop/dogrug.jpg" alt="dog on a rug" />
-    <img src="../assets/shop/board.jpg" alt="sheep cushion" />
+    <img src="../assets/shop/board.jpg" alt="pin board" />
     <img src="../assets/shop/sheep.jpg" alt="sheep cushion" />
-    <img src="../assets/shop/hunting.jpg" alt="sheep cushion" />
-    <img src="../assets/shop/farm.jpg" alt="sheep cushion" />
-    <img src="../assets/shop/horse.jpg" alt="sheep cushion" />
+    <img src="../assets/shop/hunting.jpg" alt="hunting cushion" />
+    <img src="../assets/shop/farm.jpg" alt="farm cushion" />
+    <img src="../assets/shop/horse.jpg" alt="horse cushion" />
   </div>
 </template>
 
 <style scoped>
-.shopImages {
+.galleryImages {
   display: inline-grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5em;
@@ -29,14 +29,14 @@ img {
 }
 
 @media (max-width: 1024px) {
-  .shopImages {
+  .galleryImages {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 1em;
   }
 }
 
 @media (max-width: 600px) {
-  .shopImages {
+  .galleryImages {
     grid-template-columns: 1fr 1fr;
     padding: 1em;
     grid-gap: 2em;
