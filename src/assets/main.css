@@ -18,6 +18,7 @@
 html {
   color-scheme: dark light;
   hanging-punctuation: first last;
+  scroll-behavior: smooth;
 }
 
 /* min body height */
